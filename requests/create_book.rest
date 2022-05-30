@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/books
+Content-Type: application/json
+
+{
+  "title": "The Hobbit",
+  "author": "J.R.R. Tolkien",
+  "pages": 320,
+  "isRead": true
+}
