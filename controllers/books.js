@@ -44,7 +44,7 @@ booksRouter.post('/', (request, response, next) => {
   const book = new Book({
     ...body,
   })
-  
+
   book.save()
     .then(savedBook => {
       response.json(savedBook)

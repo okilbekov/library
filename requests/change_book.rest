@@ -2,6 +2,8 @@ PUT http://localhost:3001/api/books/629d860944ea6e88863730bc
 Content-Type: application/json
 
 {
+  "title": "12",
+  "author": "31",
   "pages": 123,
   "isRead": true,
   "id": "629694af05d4231c6513143e"
