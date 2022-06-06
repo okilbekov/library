@@ -40,11 +40,6 @@ booksRouter.put('/:id', (request, response, next) => {
 
 booksRouter.post('/', (request, response, next) => {
   const body = request.body
-  if(body.title === undefined) {
-    return response.status(400).json({
-      error: 'title missing'
-    })
-  }
 
   const book = new Book({
     ...body,
